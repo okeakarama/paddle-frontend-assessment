@@ -1,0 +1,79 @@
+.circle1{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to top, #1a042f 0%, #4b0a70 100%);
+    border-radius: 50%;
+    -webkit-animation: sk-circle1 .6s infinite ease-in-out;
+    animation: sk-circle1 .6s infinite ease-in-out;
+    position: absolute;
+    left: 60px;
+    top: 200px;
+}
+.circle2{
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(to top, #1a042f 0%, #264580 100%);
+    border-radius: 50%;
+    -webkit-animation: sk-circle1 .6s infinite ease-in-out;
+    animation: sk-circle1 .6s infinite ease-in-out;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+.circle3{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to top, #1a042f 0%, #8c512a 100%);
+    border-radius: 50%;
+    -webkit-animation: sk-circle1 .6s infinite ease-in-out;
+    animation: sk-circle1 .6s infinite ease-in-out;
+    position: absolute;
+    left: 280px;
+    top: 680px;
+    z-index:-10;
+}
+.semicircle{
+    position: absolute;
+    /* bottom: 0; */
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 192px;
+    width: 700px;
+    border-radius: 800px 800px 0 0;
+    background-color: green;
+    z-index:-5;
+
+    /* Glass effect */
+    background: rgba(74, 11, 91, 0.211);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 244, 180, 0.38);
+}
+
+@media only screen and (max-width: 600px) {
+    #countdown {
+        width: 20%;
+        margin: 2px;
+    }
+    .circle1{
+        display: none;
+        left: 60px;
+        top: 200px;
+    }
+    .circle2{
+        display: none;
+        right: 30px;
+        top: 300px;
+    }
+    .circle3{
+        display: none;
+        left: 40px;
+        top: 500px;
+    }
+
+    .semicircle{
+        width: 100%;
+    }
+}

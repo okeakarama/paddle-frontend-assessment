@@ -1,0 +1,6 @@
+.main{
+  background-image: linear-gradient(to top, #070e34 0%, #1f042f 100%);
+  position: relative;
+  /* z-index: -20; */
+  /* margin-bottom: -600px; */
+}

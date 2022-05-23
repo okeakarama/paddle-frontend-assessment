@@ -1,0 +1,313 @@
+.main{
+    background-image: linear-gradient(to top, #1a0734 0%, #1f042f 100%);
+    position: relative;
+    z-index: -20;
+}
+
+
+#ham{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #logo {
+        /* background: black; */
+        display: block;
+        position: absolute;
+        /* right: 0; */
+        top: 12px;
+    }
+
+    #ham{
+        display: block;
+        position: absolute;
+    }
+    
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        background-color: #070e34;
+        padding: 13px!important;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+    
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        /* background: black; */
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        color: #a75cd2;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        color: #ffffff;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #04AA6D;
+        color: white;
+    }
+}
+
+/* Navbar ends here */
+
+
+/* Home starts here */
+
+/* Home ends here */
+
+
+/* About starts here */
+.aboutsec1{
+    margin-top:6rem;
+}
+.crubs{
+    margin-left:30%;
+}
+.crubs p{
+    font-size:12px;
+}
+.crubs p hr{
+    width: 50px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.aboutTitle{
+    margin-left: 40%;
+    font-size: 3rem;
+    color:#ffffff;
+    font-weight: normal;
+}
+
+.aboutDes{
+    width: 30%;
+    margin: 30px 0 0 60%;
+}
+.aboutDes p{
+    font-size:14px;
+    line-height: 1.8;
+}
+.abs1Bg .bigSquare{
+    width: 650px;
+    height: 430px;
+    position: absolute;
+    top:100px;
+    background-color:rgb(124, 0, 177);
+    z-index:-1;
+
+    /* Glass effect */
+    background: rgba(119, 17, 147, 0.211);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.0px);
+    -webkit-backdrop-filter: blur(3.6px);
+}
+.abs1Bg .smallSquare{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top:150px;
+    left:300px;
+    background-image:linear-gradient(to top, #1a0734 0%, #ef40c3 100%);
+    z-index:-3;
+}
+.abs1Bg .abs1Circle{
+    width: 130px;
+    height: 130px;
+    background-image: linear-gradient(to top, #1a042f 0%, #264580 100%);
+    border-radius: 50%;
+    -webkit-animation: sk-circle1 .6s infinite ease-in-out;
+    animation: sk-circle1 .6s infinite ease-in-out;
+    position: absolute;
+    right: -5px;
+    top: 250px;
+}
+
+
+
+.aboutsec2 p {
+    font-size:3rem;
+    margin: 100px 180px 50px 180px;
+}
+
+.aboutsec3{
+    display:flex;
+    margin-top:5rem;
+}
+.aboutsec3 .contain{
+    padding: 5px 100px 5px 150px;
+}
+.absheader{
+    font-size:12px!important;
+    color:white;
+}
+.absheader hr{
+    width: 50px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.abs3Bg .bigSquare{
+    width: 590px;
+    height: 330px;
+    position: absolute;
+    top:870px;
+    right:0;
+    background-color:rgb(124, 0, 177);
+    z-index:-1;
+
+    /* Glass effect */
+    background: rgba(119, 17, 147, 0.211);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.0px);
+    -webkit-backdrop-filter: blur(6.0px);
+}
+.abs3Bg .smallSquare{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top:920px;
+    right:300px;
+    background-image:linear-gradient(to top, #1a0734 0%, #2a85ab 100%);
+    z-index:-3;
+}
+
+
+.aboutsec4{
+    padding: 5rem;
+    margin-top:250px;
+    /* background-color:#2d0e3e; */
+
+    background: rgba(89, 12, 111, 0.686);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(6.0px);
+    -webkit-backdrop-filter: blur(3.6px);
+    
+}
+.aboutsec4 h1{
+    font-weight: normal;
+    color: #ffffff;
+}
+.aboutsec4 p{
+    width: 50%;
+    font-size: 14px;
+}
+.aboutsec4 a{
+    color:#ea05fa;
+    text-decoration: none;
+}
+.abs4Bg .smallSquare{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top:1470px;
+    right:100px;
+    background-image:linear-gradient(to top, #1a0734 0%, #c7a12f 100%);
+    z-index:-3;
+}
+
+/* Mobile view for about */
+
+@media only screen and (max-width: 600px) {
+
+    .crubs{
+        margin-left:30px;
+    }
+    .aboutTitle{
+        margin-left:30px;
+    }
+    .aboutDes{
+        margin: 30px 0 0 30px;
+        width: 80%;
+    }
+
+    .abs1Bg .bigSquare{
+        width:250px;
+
+    }
+    .abs1Bg .smallSquare{
+        width:100px;
+        height:200px;
+        top:150px;
+        left:100px;
+    }
+    .abs1Bg .abs1Circle{
+        width: 100px;
+        height: 100px;
+        right: -10px;
+    }
+
+    .aboutsec2 p{
+        font-size: 24px;
+        margin: 100px 20px 50px 30px;
+    }
+
+    .aboutsec3{
+        display:block;
+        /* margin-top:5rem; */
+    }
+    .aboutsec3 .container{
+        padding: 5px 50px 5px 30px;
+    }
+    .abs3Bg .bigSquare{
+        width: 250px;
+        height:490px;
+        top:800px;
+
+        background: rgba(119, 17, 147, 0.113);
+        backdrop-filter: blur(6.0px);
+        -webkit-backdrop-filter: blur(6.0px);
+    }
+    .abs3Bg .smallSquare{
+        width: 120px;
+        height: 150px;
+        right:100px;
+    }
+
+    .aboutsec4{
+        padding: 2rem;
+        margin-top:100px;
+    }
+    .aboutsec4 p{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .abs4Bg .smallSquare{
+        width: 250px;
+        height: 150px;
+        top:1400px;
+        right:40px;
+    }
+
+}
+
+/* About ends here */
+
+
+
+/* Footer starts here */
+
+#footer{
+    z-index: 99;
+}
+#footerLink{
+    text-decoration:none;
+}
