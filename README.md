@@ -99,4 +99,4 @@ Once your server has started, the react application should automatically open on
 
 ## Usage Error 🛠️
 After the launching the application and you are unable to interact with the application (links and input), kindly goto:
-`src/css/style.css` and comment out line 4
+`src/css/style.css` and comment out line 4, bug fix in progress...
