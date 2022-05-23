@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+## Getting Started 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Available Scripts
+### Prerequisites 📋
 
-In the project directory, you can run:
+You'll need [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-### `npm start`
+```
+node@v16.15.0 or higher
+npm@8.5.5 or higher
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+yarn@v1.22.10 or higher
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Libraries and dependecies used  📋
 
-### `npm run build`
+- antd
+- axios
+- react-icons
+- react-redux
+- react-router-dom
+- reduxjs/toolkit
+- tachyons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How To Use 🔧
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+From your command line or terminal, first clone the repository:
 
-### `npm run eject`
+```bash
+# Clone the repository
+$ git clone https://github.com/okeakarama/paddle-frontend-assessment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Move into the repository
+$ cd paddle-frontend-assessment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Remove the current origin repository
+$ git remote remove origin
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After that, you can install the dependencies either using NPM or Yarn.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Using NPM: Simply run the following commands.
 
-## Learn More
+```bash
+# Install dependencies
+$ npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+$ npm install antd
+$ npm install axois
+$ npm install tachyons
+$ npm install react-icons --save
+$ npm install react-router-dom
+$ npm install react-redux
+$ npm install @reduxjs/toolkit
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# Start the development server
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file before executing the following commands.
 
-### Analyzing the Bundle Size
+```bash
+# Install dependencies
+$ yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+$ yarn add antd
+$ yarn add axois
+$ yarn add tachyons
+$ yarn add react-icons --save
+$ yarn add react-router-dom
+$ yarn add react-redux
+$ yarn add @reduxjs/toolkit
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Start the development server
+$ yarn start
+```
 
-### Advanced Configuration
+**NOTE**:
+If your run into issues installing the dependencies with NPM, use this below command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
+```
 
-### Deployment
+Once your server has started, the react application should automatically open on a browser. In any case that it didn't, manually go to this url `http://localhost:3000/` to launch app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Usage Error 🛠️
+After the launching the application and you are unable to interact with the application (links and input), kindly goto:
+`src/css/style.css` and comment out line 4
