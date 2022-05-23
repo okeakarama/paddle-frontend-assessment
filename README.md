@@ -98,5 +98,8 @@ Once your server has started, the react application should automatically open on
 
 
 ## Usage Error 🛠️
-After the launching the application and you are unable to interact with the application (links and input), kindly goto:
-`src/css/style.css` and comment out line 4, bug fix in progress...
+After the launching the application and you are unable to interact with the application (links and input), kindly goto: `src/css/style.css` and comment out line 4, bug fix in progress...
+
+
+## Addition 🎁
+The github most starred repo in the route `/github` is back dated to 2021-08-13 which will be a lot better if set to fetch the data in realtime using the current date. I have added both codes with the realtime as a comment. To change the github most starred repo fetch to realtime goto: `src/redux/Actions/Reposactions` and study lines 5,6 and 10,11.
